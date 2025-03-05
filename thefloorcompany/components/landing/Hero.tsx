@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import Banner from '../universal/Banner';
 
 function Hero() {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     // Make sure video autoplays on load
