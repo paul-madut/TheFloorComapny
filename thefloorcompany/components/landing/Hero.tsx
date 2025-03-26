@@ -2,6 +2,8 @@
 "use client";
 import { useEffect, useRef } from 'react';
 import Banner from '../universal/Banner';
+import Logos from './infinite-logo-scroll'
+
 
 function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -48,7 +50,7 @@ function Hero() {
         Contact us today to give your garage or place of business an incredible concrete floor.
         </p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-          <button className="rounded-md bg-primary px-8 py-3 font-medium text-white transition duration-300 hover:bg-primary/90">
+          <button className="rounded-md border bg-primary px-8 py-3 font-medium text-white transition duration-300 hover:bg-primary/90">
             Contact Us
           </button>
           <button className="rounded-md bg-[#e10019] px-8 py-3 font-medium text-white transition duration-300 hover:bg-[#e10019]/10">
@@ -56,6 +58,10 @@ function Hero() {
           </button>
         </div>
       </div>
+    </div>
+    <div className="logo__scroller absolute bottom-10 ">
+
+        <Logos></Logos>
     </div>
     </div>
         </>

@@ -9,7 +9,7 @@ function Banner() {
   return (
     <div className='banner h-12 w-full bg-[#000]/40 flex justify-center items-center'>
         <div className="banner_container flex items-center space-x-4">
-            <h2 className='text-white opacity-100 text-center text-xs sm:text-sm'>ETHAN@THEFLOORCOMPANY.CA TEL: 613-866-7990</h2>
+            <h2 className='text-white opacity-100 text-center text-[10px] sm:text-sm'>ETHAN@THEFLOORCOMPANY.CA TEL: 613-866-7990</h2>
             
             <div className="social-icons flex items-center space-x-3">
                 <a 
